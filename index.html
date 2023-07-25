@@ -1,0 +1,37 @@
+<h1 id='title'>Survey Form</h1>
+<p id='description'>Thank you for taking the time to help us improve the platform</p>
+
+<form id='survey-form'>
+  <label id='name-label'>Name
+  <input id='name' type='text' required placeholder='Enter your name' />
+  </label><br>
+  <label id='email-label'>Email
+  <input id='email' type='email' required placeholder='Enter your email' />
+  </label><br>
+  <label id='number-label'>Age(optional)
+  <input id='number' type= 'number' min= '13' max= '120' placeholder='Enter your age' />
+  </label><br>
+  <select id='dropdown'>select your role
+    <option>select your role</option>
+    <option>student</option>
+    <option>teacher</option>
+  </select><br>
+  <label>Would you recommend</label><br>
+    <input type='radio' name='recommendation' value='yes' />
+    <label>yes</label><br>
+    <input type='radio' name='recommendation' value='no' />
+    <label>no</label><br>
+<label>What else would you like?</label><br>
+    <label>
+      <input type='checkbox' value='nomore'/>for it to be over
+    </label><br>
+    <label>
+      <input type='checkbox' value='more' />more of it
+    </label><br>
+    <label>any comments</label><br>
+    <textarea placeholder='Enter your comment'>
+    </textarea>
+    <button id='submit'>submit
+    </button>
+  </form>
+  
